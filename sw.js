@@ -1,6 +1,6 @@
 // Serpiente de Setas — service worker (generado por crear-version-github.ps1)
-const CACHE = 'serpiente-setas-20261120-020947';
-const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png', 'fonts/f1.woff2', 'fonts/f10.woff2', 'fonts/f11.woff2', 'fonts/f12.woff2', 'fonts/f13.woff2', 'fonts/f14.woff2', 'fonts/f15.woff2', 'fonts/f16.woff2', 'fonts/f2.woff2', 'fonts/f3.woff2', 'fonts/f4.woff2', 'fonts/f5.woff2', 'fonts/f6.woff2', 'fonts/f7.woff2', 'fonts/f8.woff2', 'fonts/f9.woff2', 'fonts/fonts.css'];
+const CACHE = 'serpiente-setas-20261120-021407';
+const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 const MUSIC = ['musica-arcade.mp3', 'musica-pasillo.mp3', 'musica-intro.mp3', 'musica-final.mp3'];
 
 self.addEventListener('install', e => {

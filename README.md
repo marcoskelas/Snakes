@@ -36,8 +36,7 @@ En el menú, elige uno de estos dos modos:
 
 1. Entra en [github.com](https://github.com) y crea un repositorio nuevo **público**, por ejemplo `serpiente-de-setas`.
 2. En el repositorio pulsa **Add file → Upload files**.
-3. Arrastra **todo el contenido** de esta carpeta: `index.html`, `sw.js`, `manifest.webmanifest`, los iconos, los 4 MP3, la carpeta `fonts` y el archivo `.nojekyll`.
-   - Si el explorador de Windows no muestra `.nojekyll`, no pasa nada: el juego funciona igual.
+3. Arrastra los **11 archivos** de esta carpeta: `index.html`, `sw.js`, `manifest.webmanifest`, los 3 iconos PNG, los 4 MP3 y este `README.md`.
 4. Pulsa **Commit changes**.
 5. Ve a **Settings → Pages**. En *Build and deployment* elige **Source: Deploy from a branch**, rama **main**, carpeta **/ (root)**, y pulsa **Save**.
 6. Espera 1 o 2 minutos. La dirección aparece en esa misma página: `https://TU-USUARIO.github.io/serpiente-de-setas/`.
@@ -63,10 +62,8 @@ Los móviles que ya tengan el juego instalado reciben la nueva versión al abrir
 
 | Archivo | Para qué sirve |
 |---|---|
-| `index.html` | El juego completo |
+| `index.html` | El juego completo, con las tipografías (Bungee, Press Start 2P y Chakra Petch) incluidas dentro |
 | `sw.js` | Service worker: guarda el juego y la música para jugar sin conexión |
 | `manifest.webmanifest` | Nombre, icono y pantalla completa al instalarlo |
-| `icon.svg`, `icon-192.png`, `icon-512.png`, `apple-touch-icon.png` | Iconos |
+| `icon-192.png`, `icon-512.png`, `apple-touch-icon.png` | Iconos de Android y de iPhone |
 | `musica-*.mp3` | Música: arcade, pasillo, intro de jefes y final |
-| `fonts/` | Tipografías locales (Bungee, Press Start 2P, Chakra Petch) |
-| `.nojekyll` | Indica a GitHub Pages que sirva los archivos tal cual |
